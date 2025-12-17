@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import { App } from "./app";
-import "./styles.css";
+import "./styles.scss";
 
 const container = document.getElementById("root");
 if (!container) throw new Error("No se encontró el elemento #root");
