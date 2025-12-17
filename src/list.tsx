@@ -15,7 +15,6 @@ export const ListPage: React.FC = () => {
             .then((data) => {
                 setMembers(data.results);
             })
-            .catch((error) => console.error("Error cargando personajes:", error));
     }, []);
 
     const membersShow = members.filter((member) =>
